@@ -1,0 +1,5 @@
+#!/bin/bash
+# Search all files that end with "~" or start and end with "#"
+
+find . -type f \( -name '*~' -o -name '#*#' \) -print -delete
+
